@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CTMSDETRegressionSuite" duration-ms="92938" started-at="2017-08-14T20:26:25Z" finished-at="2017-08-14T20:27:58Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:energy.comparethemarket.com.ctmsdet.bdd.RunSDETBDD@31ef45e3]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="CompareEnergyProviderTest" duration-ms="92938" started-at="2017-08-14T20:26:25Z" finished-at="2017-08-14T20:27:58Z">
+      <class name="energy.comparethemarket.com.ctmsdet.bdd.RunSDETBDD">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:energy.comparethemarket.com.ctmsdet.bdd.RunSDETBDD@31ef45e3]" name="setUpClass" is-config="true" duration-ms="160" started-at="2017-08-14T21:26:25Z" finished-at="2017-08-14T21:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:energy.comparethemarket.com.ctmsdet.bdd.RunSDETBDD@31ef45e3]" name="feature" duration-ms="90909" started-at="2017-08-14T21:26:25Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-08-14T21:27:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User should be able to compare the tariff of energy suppliers exists in the market]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:energy.comparethemarket.com.ctmsdet.bdd.RunSDETBDD@31ef45e3]" name="tearDownClass" is-config="true" duration-ms="20" started-at="2017-08-14T21:27:58Z" finished-at="2017-08-14T21:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- energy.comparethemarket.com.ctmsdet.bdd.RunSDETBDD -->
+    </test> <!-- CompareEnergyProviderTest -->
+  </suite> <!-- CTMSDETRegressionSuite -->
+</testng-results>

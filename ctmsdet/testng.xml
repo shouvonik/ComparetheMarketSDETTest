@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CTMSDETRegressionSuite">
+	<listeners>
+		<listener
+			class-name="energy.comparethemarket.com.ctmsdet.bdd.drivers.WebDriverListener" />
+	</listeners>
+	<test name="CompareEnergyProviderTest">
+		<parameter name="browserName" value="firefox"></parameter>
+		<classes>
+			<class name="energy.comparethemarket.com.ctmsdet.bdd.RunSDETBDD" />
+		</classes>
+	</test> <!-- CompareEnergyProviderTest -->
+</suite> <!-- CTMSDETRegressionSuite -->
